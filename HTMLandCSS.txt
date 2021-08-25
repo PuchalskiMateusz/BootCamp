@@ -1,0 +1,20 @@
+HTML
+<!---...---!>- komentarz w HTML;
+<head> </head>- znajdują się tutaj informacje dla strony niewidoczne dla odbiorcy ostatecznego takie jak <meta>, <title>, <style>;
+<body> </body>- tu idze cały HTML, wyswietlany w przeglądarce;
+
+
+CSS:
+/*...*/- komentarz w CSS;
+
+Przykład:
+p{
+	bacground-colors: green;
+}  wysztkie elementy <p> w pliku HTML będą  miały tło w koloerze zielonym
+
+Atrybuty:
+id="id_name"- pojedyńczy atrybut, dla tylko jednego elementu w całym HTML
+class="class_name"- klasa, atrybut, który można przypisać do wielu elementów;
+Przykład:
+			<p class="description"> content </p>
+			

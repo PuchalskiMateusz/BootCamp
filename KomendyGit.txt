@@ -1,0 +1,51 @@
+cd - przejdz do .....
+cd ..- przejdź do wcześniejszego folderu
+ls (-a)- wyświetla listę plików, folderów w aktualnej lokalizacji(szystkie, nawet ukryte)
+mkdir- tworzenie nowego folderu
+clear- czyści linie poleceń
+rm -rf /nazwa/- usuwanie wszystkiego z wymuszeniem
+----------------------------------------------------------
+git init- inicjalizacja nowego repozytorium w danym folderze
+git status- aktualny status repo
+git add <file>- dodanie pliku do stage area
+git config --global core.editor - zmiana natywnego edytora
+.gitignore- dokument z wylistowanymi plikami do pomijania przy commitach 
+
+git commit- wykonanie commit'a
+git commit -m "..."- wykonanie commit'a jednocześnie zapisując wiadomość z informacją o zmianach
+git commit --amend- nadpisanie wcześniejszego commita
+
+git reset /branch/ (--mixed)- przeniesienie commitów powyżej /branch/ do Worling dir (domyślne, nie trzeba pisać --mixed)
+git reset /branch/ --soft- przeniesienie commitów powyżek /branch/ do Staging Area
+git reset /branch/ --hard- całkowite usunięcie commitów powyżej /branch/
+git reset HEAD /file/- przeniesienie plików z Staging area do Working Dir
+git reset HEAD~x- cofnięcie się o x commitów do tyłu i przeniesienie WSZYSTKICH zmian do Staging area
+
+git diff- wyświetlanie różnic pomiedzy repozytorium, a Working dir;
+git diff --staged- wyświetlanie różnic pomiedzy repozytorium, a Staging area;
+
+git log- status commitów, historia
+git log --oneline- skrócony status, historia do jednej linijki
+git log -/liczba/- pokazuje ostatnie /liczba/ komitów
+git log --grep="..."- pokazuje commity które w opisie miały "..."
+git log --graph- wyświetlenie loga graficznie
+git log --oneline- uproszczone wyświetlenie commitów
+git log --all- uproszczone wyświetlenie wszystkich commitów, włącznie z innymi branchami
+
+git checkout /id/- przejscie do innego commita lub branchy
+git checkout -b /branch name/- utworzenie nowej branchy jednocześnie checkout na tej brnachy
+git branch- wylistowanie wszystkich branchy
+git branch /name/- utworzenie nowej branchy o nazwie /name/
+
+git merge /nazwa branchy/- łączenie branchy w jedną, najpierw checkout na docelową potem merge z docelową branchą
+git merge /nazwa branchy/ --no-ff - (no fastforwoard) merge zaznaczający, tworzący połączenie branchy
+
+git clone /path/ - klonowanie repo z serwera, miejsca do folderu o takiej samie nazwie jak repo
+git clone /path/ /folder name/- klonowanie repo z serwera do nowego folderu o nazwie /folder name/
+git clone /path/ .- klonowanie repo do aktualnego folderu
+git remote (-v)- pokazuje serwery zdalne (z dokładnym adresem)
+git push /remote_name/ /branch_name/- wysyłanie na serwer /remote_name/ branchy /branch_name/
+git push --all -wysyła na serwer wszystkie branche
+git fetch- aktualizacja/pobranie commitów z serwera
+git pull- jednoczesne pobranie zmian z serwera oraz scalenie ich z naszymi plikami
+git pull -f -(force) wymuszenie wysłania danych na serwer oraz połączenie ich

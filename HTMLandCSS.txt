@@ -18,3 +18,6 @@ class="class_name"- klasa, atrybut, który można przypisać do wielu elementów
 Przykład:
 			<p class="description"> content </p>
 			
+Pliki CSS
+aby dodać utworzony plik CSS do HTML należy wpisać w <head>
+	<link href="path-to-stylesheet/stylesheet.css" rel="stylesheet">

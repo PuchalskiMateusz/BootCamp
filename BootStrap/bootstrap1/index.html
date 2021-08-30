@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 <!-- Style to grid lessons
     <style>
       .row div{
@@ -157,16 +157,16 @@
   <h2 class="display-4 text-center py-5 my-4">Meet the speakers</h2> <!--py- padding Y px- padding X my- margin y mx- margin x -->
 
   <nav class="nav justify-content-center nav-pills flex-column flex-md-row"><!--nav-pills- will make selected object poped out, flex-column content will be on eachother flex-md-row form medium screens up will be in row--->
-    <a class="nav-link " href="#ninja" data-toggle="tab">The Net Ninja</a><!--clicable element #to section below, data-toggle="tab" makes apear of content below -->
+    <a class="nav-link active" href="#ninja" data-toggle="tab">The Net Ninja</a><!--clicable element #to section below, data-toggle="tab" makes apear of content below -->
     <a class="nav-link" href="#wizard" data-toggle="tab">The Net Wizard</a>
     <a class="nav-link" href="#captain" data-toggle="tab">Captain Code</a>
     <a class="nav-link" href="#avenger" data-toggle="tab">Angular Avenger</a>
   </nav>
 
   <div class="tab-content py-5">
-    <div class="tab-pane " id="ninja">
+    <div class="tab-pane active" id="ninja">
       <h3>The net Ninja</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur</p>
+      <p>Lorem ipsum <span data-toggle="tooltip" title="this is a tooltip" class="text-info">dolor sit amet</span>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur</p>
     </div>
     <div class="tab-pane" id="wizard">
       <h3>The net Wizard</h3>
@@ -186,5 +186,11 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+      $(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+      </script>
+
   </body>
 </html>

@@ -1,12 +1,32 @@
 ﻿using System;
 
-namespace NumbersInCSharp
+namespace MyApplication
 {
     class Program
     {
-        static void Main(string[] args)
+        static void WorkWithIntegers()
         {
-            Console.WriteLine("Hello World!");
+            int a = 18;
+            int b = 6;
+            int c = a + b;
+            Console.WriteLine(c);
+
+
+            // subtraction
+            c = a - b;
+            Console.WriteLine(c);
+
+            // multiplication
+            c = a * b;
+            Console.WriteLine(c);
+
+            // division
+            c = a / b;
+            Console.WriteLine(c);
+        }
+            static void Main(string[] args)
+        {
+            WorkWithIntegers();
         }
     }
 }

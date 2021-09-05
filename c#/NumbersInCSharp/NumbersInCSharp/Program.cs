@@ -85,6 +85,21 @@ namespace MyApplication
             double calc = (i * j + (k - l)) / i;
             Console.WriteLine(calc);
         }
+
+        static void WorkWithDecimals()
+        {
+            decimal min = decimal.MinValue;
+            decimal max = decimal.MaxValue;
+            Console.WriteLine($"The range of the decimal type is {min} to {max}");
+
+            double a = 1.0;
+            double b = 3.0;
+            Console.WriteLine("Double:" + (a / b));
+
+            decimal c = 1.0M;
+            decimal d = 3.0M;
+            Console.WriteLine("Decimal:"+ (c / d));
+        }
         static void Main(string[] args)
         {
             //WorkWithIntegers();
@@ -96,8 +111,10 @@ namespace MyApplication
             //TestLimits();
             //Console.WriteLine("\n");
 
-            WorkWithDoubles();
+            //WorkWithDoubles();
+            //Console.WriteLine("\n");
 
+            WorkWithDecimals();
 
         }
     }

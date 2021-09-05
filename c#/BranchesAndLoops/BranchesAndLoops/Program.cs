@@ -49,10 +49,41 @@ namespace BranchesAndLoops
                 Console.WriteLine($"Hello World! The counter is {counter}");
                 counter++;
             } while (counter < 10);
+            Console.WriteLine("\n");
 
             for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine($"Hello World! The index os {i}");
+            }
+            Console.WriteLine("\n");
+        }
+
+        static void NestedLoops()
+        {
+            for (int row = 1; row < 11; row++)
+            {
+                Console.WriteLine($"The row is {row}");
+            }
+
+            for (char column = 'a'; column < 'k'; column++)
+            {
+                Console.WriteLine($"The column is {column}");
+            }
+
+            for (int row = 1; row < 11; row++)
+            {
+                for (char column = 'a'; column < 'k'; column++)
+                {
+                    Console.WriteLine($"The cell is ({row}, {column})");
+                }
+            }
+
+            for (char column = 'a'; column < 'k'; column++)
+            {
+                for (int row = 1; row < 11; row++)
+                {
+                    Console.WriteLine($"The cell is ({row}, {column})");
+                }
             }
         }
 
@@ -60,7 +91,8 @@ namespace BranchesAndLoops
         {
 
             //ExploreIf();
-            Loops();
+            //Loops();
+            NestedLoops();
 
         }
     }

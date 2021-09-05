@@ -1,0 +1,13 @@
+C:\Users\pysio\Desktop\BootCamp .NET\c#\BranchesAndLoops\BranchesAndLoops\bin\Debug\netcoreapp3.1\BranchesAndLoops.exe
+C:\Users\pysio\Desktop\BootCamp .NET\c#\BranchesAndLoops\BranchesAndLoops\bin\Debug\netcoreapp3.1\BranchesAndLoops.deps.json
+C:\Users\pysio\Desktop\BootCamp .NET\c#\BranchesAndLoops\BranchesAndLoops\bin\Debug\netcoreapp3.1\BranchesAndLoops.runtimeconfig.json
+C:\Users\pysio\Desktop\BootCamp .NET\c#\BranchesAndLoops\BranchesAndLoops\bin\Debug\netcoreapp3.1\BranchesAndLoops.runtimeconfig.dev.json
+C:\Users\pysio\Desktop\BootCamp .NET\c#\BranchesAndLoops\BranchesAndLoops\bin\Debug\netcoreapp3.1\BranchesAndLoops.dll
+C:\Users\pysio\Desktop\BootCamp .NET\c#\BranchesAndLoops\BranchesAndLoops\bin\Debug\netcoreapp3.1\BranchesAndLoops.pdb
+C:\Users\pysio\Desktop\BootCamp .NET\c#\BranchesAndLoops\BranchesAndLoops\obj\Debug\netcoreapp3.1\BranchesAndLoops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pysio\Desktop\BootCamp .NET\c#\BranchesAndLoops\BranchesAndLoops\obj\Debug\netcoreapp3.1\BranchesAndLoops.AssemblyInfoInputs.cache
+C:\Users\pysio\Desktop\BootCamp .NET\c#\BranchesAndLoops\BranchesAndLoops\obj\Debug\netcoreapp3.1\BranchesAndLoops.AssemblyInfo.cs
+C:\Users\pysio\Desktop\BootCamp .NET\c#\BranchesAndLoops\BranchesAndLoops\obj\Debug\netcoreapp3.1\BranchesAndLoops.csproj.CoreCompileInputs.cache
+C:\Users\pysio\Desktop\BootCamp .NET\c#\BranchesAndLoops\BranchesAndLoops\obj\Debug\netcoreapp3.1\BranchesAndLoops.dll
+C:\Users\pysio\Desktop\BootCamp .NET\c#\BranchesAndLoops\BranchesAndLoops\obj\Debug\netcoreapp3.1\BranchesAndLoops.pdb
+C:\Users\pysio\Desktop\BootCamp .NET\c#\BranchesAndLoops\BranchesAndLoops\obj\Debug\netcoreapp3.1\BranchesAndLoops.genruntimeconfig.cache

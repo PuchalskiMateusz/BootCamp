@@ -87,12 +87,26 @@ namespace BranchesAndLoops
             }
         }
 
+        static void Challenge()
+        {
+            int sum = 0;
+            for (int i = 1; i < 21; i++)
+            {
+                if (i%3==0)
+                {
+                    sum += i;
+                }
+            }
+            Console.WriteLine(sum);
+        }
+
         static void Main(string[] args)
         {
 
             //ExploreIf();
             //Loops();
-            NestedLoops();
+            //NestedLoops();
+            Challenge();
 
         }
     }

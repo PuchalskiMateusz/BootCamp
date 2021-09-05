@@ -100,21 +100,32 @@ namespace MyApplication
             decimal d = 3.0M;
             Console.WriteLine("Decimal:"+ (c / d));
         }
+
+        static void CircleArea()
+        {
+            Console.WriteLine("Type circle radius: ");
+            var r = Convert.ToDouble(Console.ReadLine());
+            double area = Math.PI * r * r;
+            Console.WriteLine(area);
+        }
         static void Main(string[] args)
         {
-            //WorkWithIntegers();
-            //Console.WriteLine("\n");
+            WorkWithIntegers();
+            Console.WriteLine("\n");
 
-            //OrderPrecedence();
-            //Console.WriteLine("\n");
+            OrderPrecedence();
+            Console.WriteLine("\n");
 
-            //TestLimits();
-            //Console.WriteLine("\n");
+            TestLimits();
+            Console.WriteLine("\n");
 
-            //WorkWithDoubles();
-            //Console.WriteLine("\n");
+            WorkWithDoubles();
+            Console.WriteLine("\n");
 
             WorkWithDecimals();
+            Console.WriteLine("\n");
+
+            CircleArea();
 
         }
     }

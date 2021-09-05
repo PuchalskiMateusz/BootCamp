@@ -4,7 +4,7 @@ namespace MyApplication
 {
     class Program
     {
-        static void WorkWithIntegers()
+         static void WorkWithIntegers()
         {
             int a = 18;
             int b = 6;
@@ -40,10 +40,33 @@ namespace MyApplication
             int h = (e + f) / g;
             Console.WriteLine(h);
         }
+
+        static void TestLimits()
+        {
+            int a = 7;
+            int b = 4;
+            int c = 3;
+            int d = (a + b) / c;
+            int e = (a + b) % c;
+            Console.WriteLine($"quotient: {d}");
+            Console.WriteLine($"remainder: {e}");
+            int max = int.MaxValue;
+            int min = int.MinValue;
+            Console.WriteLine($"The range of integers is {min} to {max}");
+            int what = max + 3;
+            Console.WriteLine($"An example of overflow: {what}");
+        }
         static void Main(string[] args)
         {
-            //WorkWithIntegers();
+            WorkWithIntegers();
+            Console.WriteLine("\n");
+
             OrderPrecedence();
+            Console.WriteLine("\n");
+
+            TestLimits();
+
+
         }
     }
 }
